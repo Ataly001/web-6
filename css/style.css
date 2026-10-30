@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: white;
+    color: black;
+}
+
+nav {
+    background-color: orange;
+    padding: 15px;
+}
+
+nav a {
+    color: black;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+button {
+    background-color: orange;
+    border: 1px solid black;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
