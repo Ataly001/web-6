@@ -69,7 +69,7 @@ ul {
     margin: 15px auto;
 }
 
-#box8, #box9, #box10 {
+#box9, #box10 {
     margin: 20px auto;
 }
 
@@ -80,4 +80,13 @@ ul {
 .content {
     margin: 0 auto;
 }
+
+#box8 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    margin: 20px auto;
+}
+
 
