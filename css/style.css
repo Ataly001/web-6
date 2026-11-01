@@ -1,63 +1,46 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     margin: 0;
+    text-align: center;
     background-color: white;
-    color: black;
 }
 
 nav {
     background-color: orange;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 15px 0;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 nav a {
     color: black;
     text-decoration: none;
-    text-align: center;
-    padding: 10px 15px;
 }
 
 nav a:hover {
     color: white;
 }
 
-h1, h3, p, form, ul {
-    margin-left: 30px;
+h1 {
+    margin: 30px;
 }
 
 button {
     background-color: orange;
     border: 1px solid black;
-    padding: 10px 15px;
+    padding: 12px 18px;
+    margin: 10px;
     cursor: pointer;
-    margin: 5px;
 }
 
 button:hover {
-    color: white;
+    background-color: #ffcc80;
 }
 
 input {
-    padding: 8px;
+    padding: 10px;
     margin: 5px;
-}
-
-body {
-    text-align: center;
-}
-
-h1, h3, p, form, ul {
-    margin-left: 0;
-}
-
-button {
-    margin: 10px 5px;
 }
 
 ul {
@@ -65,23 +48,19 @@ ul {
     text-align: left;
 }
 
-#panel {
-    margin: 15px auto;
+#photo {
+    width: 300px;
+    height: 200px;
 }
 
-#box9, #box10 {
+#panel {
+    background-color: #ffcc80;
+    padding: 30px;
+    width: 300px;
     margin: 20px auto;
 }
 
-.accordion {
-    margin: 10px auto 0;
-}
-
-.content {
-    margin: 0 auto;
-}
-
-#box8 {
+#box8, #box9, #box10 {
     width: 100px;
     height: 100px;
     background-color: orange;
@@ -89,4 +68,17 @@ ul {
     margin: 20px auto;
 }
 
+.accordion {
+    background-color: orange;
+    padding: 15px;
+    width: 400px;
+    margin: 10px auto 0;
+    cursor: pointer;
+}
 
+.content {
+    background-color: #fff3e0;
+    padding: 15px;
+    width: 400px;
+    margin: 0 auto;
+}
